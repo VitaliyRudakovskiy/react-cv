@@ -1,0 +1,26 @@
+@use "../colors" as c;
+
+.navbarItem {
+  list-style: none;
+  cursor: pointer;
+
+  .link {
+    display: inline-block;
+    text-decoration: none;
+    color: c.$brown;
+  }
+
+  .link::after {
+    background-color: c.$brown;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    transition: width 0.3s;
+  }
+
+  .link:hover:after,
+  .link:focus:after {
+    width: 100%;
+  }
+}

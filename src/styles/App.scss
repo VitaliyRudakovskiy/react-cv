@@ -1,0 +1,21 @@
+@use "colors" as c;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: c.$peach;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
