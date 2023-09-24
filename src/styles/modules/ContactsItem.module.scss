@@ -1,0 +1,16 @@
+@use "../colors" as c;
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .contactsIcon {
+    width: 25px;
+  }
+
+  .contactsLink {
+    color: c.$dark-green;
+    text-decoration: none;
+  }
+}

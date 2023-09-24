@@ -1,0 +1,17 @@
+@use "../colors" as c;
+
+.languagesSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .languagesTitle {
+    color: c.$dark-green;
+  }
+
+  .languagesList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

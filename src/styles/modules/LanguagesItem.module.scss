@@ -1,0 +1,15 @@
+@use "../colors" as c;
+
+.languagesItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .languagesIcon {
+    width: 25px;
+  }
+
+  .languagesText {
+    color: c.$dark-green;
+  }
+}

@@ -1,0 +1,18 @@
+@use "../colors" as c;
+
+.contactsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .contactsTitle {
+    color: c.$dark-green;
+  }
+
+  .contactsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,8 +1,9 @@
 nav {
   padding: 15px;
+  margin-bottom: 10px;
 
   .navList {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 }

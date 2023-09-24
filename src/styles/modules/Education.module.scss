@@ -1,0 +1,23 @@
+.universityContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.coursesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+
+  .coursesList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
