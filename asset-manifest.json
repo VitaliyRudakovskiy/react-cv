@@ -1,13 +1,28 @@
 {
   "files": {
-    "main.css": "/react-cv/static/css/main.479281d3.css",
-    "main.js": "/react-cv/static/js/main.0611d184.js",
+    "main.css": "/react-cv/static/css/main.95ac272b.css",
+    "main.js": "/react-cv/static/js/main.1ae5f80c.js",
+    "static/media/Momentum_demo.png": "/react-cv/static/media/Momentum_demo.0167afcc51985181c661.png",
+    "static/media/Shelter_demo.png": "/react-cv/static/media/Shelter_demo.6ad5285ce8406aa73fb8.png",
+    "static/media/Plants_demo.png": "/react-cv/static/media/Plants_demo.47d65effb695bfa6729e.png",
+    "static/media/Portrait (square).jpg": "/react-cv/static/media/Portrait (square).8cb83efa13c926284443.jpg",
+    "static/media/Github_icon.png": "/react-cv/static/media/Github_icon.ba57b0e0a8e0600a63e3.png",
+    "static/media/Todolist_demo.png": "/react-cv/static/media/Todolist_demo.6bcad03b93f19c6d89dc.png",
+    "static/media/Telegram_icon.png": "/react-cv/static/media/Telegram_icon.22c1477df3427953631c.png",
+    "static/media/Tenzies_demo.png": "/react-cv/static/media/Tenzies_demo.53d893414c7dcd9192aa.png",
+    "static/media/LinkedIn_icon.png": "/react-cv/static/media/LinkedIn_icon.a680cb8ad2b88be03d17.png",
+    "static/media/Discord_icon.png": "/react-cv/static/media/Discord_icon.3f7be2bc59c34a3936f2.png",
+    "static/media/Britain.png": "/react-cv/static/media/Britain.b9a2ba74e5f8a55977e7.png",
+    "static/media/France.png": "/react-cv/static/media/France.73f91b4e96d67f8a03f0.png",
+    "static/media/Russia.png": "/react-cv/static/media/Russia.143e2d2b10c45cd59e9e.png",
+    "static/media/Telephone_icon.png": "/react-cv/static/media/Telephone_icon.788adb5ad58479e1e384.png",
+    "static/media/Gmail_icon.png": "/react-cv/static/media/Gmail_icon.a2f2146f929409405da0.png",
     "index.html": "/react-cv/index.html",
-    "main.479281d3.css.map": "/react-cv/static/css/main.479281d3.css.map",
-    "main.0611d184.js.map": "/react-cv/static/js/main.0611d184.js.map"
+    "main.95ac272b.css.map": "/react-cv/static/css/main.95ac272b.css.map",
+    "main.1ae5f80c.js.map": "/react-cv/static/js/main.1ae5f80c.js.map"
   },
   "entrypoints": [
-    "static/css/main.479281d3.css",
-    "static/js/main.0611d184.js"
+    "static/css/main.95ac272b.css",
+    "static/js/main.1ae5f80c.js"
   ]
 }
