@@ -12,10 +12,10 @@ function Skills() {
         <SkillsItem skillName='Redux' />
         <SkillsItem skillName='HTML' />
         <SkillsItem skillName='CSS' />
-        <SkillsItem skillName='JavaScript' />
+        <SkillsItem skillName='JavaScript, Node.js' />
         <SkillsItem skillName='Git, GitHub' />
         <SkillsItem skillName='C#, C++ (OOP, WinForms)' />
-        <SkillsItem skillName='MySQL (basic knowledge)' />
+        <SkillsItem skillName='MySQL, MSSQL' />
       </ul>
     </section>
   );

@@ -6,7 +6,7 @@ function Education() {
   return (
     <section id='education'>
       <TitleWrapper title='Education' />
-      <div>
+      <div className={styles.educationContent}>
         <div className={styles.universityContainer}>
           <h3 className={styles.title}>University</h3>
           <p>Belarusian State University of Informatics and Radioelectronics</p>

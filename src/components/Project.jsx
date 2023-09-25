@@ -31,12 +31,10 @@ function Project({ name, description, imgLink }) {
         target='_blank'>
         {name}
       </a>
-      <div className={styles.projectInfo}>
-        <p className={styles.projectDescription}>
-          {descriptionVariants[description]}
-        </p>
-        <img className={styles.projectImage} src={imgLink} alt='project demo' />
-      </div>
+      <p className={styles.projectDescription}>
+        {descriptionVariants[description]}
+      </p>
+      <img className={styles.projectImage} src={imgLink} alt='project demo' />
     </div>
   );
 }

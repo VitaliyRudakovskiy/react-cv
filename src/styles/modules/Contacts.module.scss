@@ -3,11 +3,8 @@
 .contactsSection {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-
-  .contactsTitle {
-    color: c.$dark-green;
-  }
+  justify-content: start;
+  align-items: flex-start;
 
   .contactsList {
     display: flex;

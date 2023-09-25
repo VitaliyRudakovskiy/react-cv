@@ -7,11 +7,12 @@ import gmail from "../images/Gmail_icon.png";
 import linkedIn from "../images/LinkedIn_icon.png";
 import telegeram from "../images/Telegram_icon.png";
 import phone from "../images/Telephone_icon.png";
+import TitleWrapper from "./TitleWrapper";
 
 function Contacts() {
   return (
     <section id='contacts' className={styles.contactsSection}>
-      <h2 className={styles.contactsTitle}>Contacts</h2>
+      <TitleWrapper title='Contacts' />
       <ul className={styles.contactsList}>
         <ContactsItem
           imgLink={discord}

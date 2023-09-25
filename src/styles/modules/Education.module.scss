@@ -1,23 +1,29 @@
-.universityContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  margin-bottom: 1rem;
-}
+.educationContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-bottom: 2rem;
 
-.title {
-  font-size: 1.3rem;
-}
-
-.coursesContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-
-  .coursesList {
-    list-style: none;
+  .universityContainer {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .coursesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    .coursesList {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
   }
 }

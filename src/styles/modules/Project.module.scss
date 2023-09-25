@@ -8,21 +8,15 @@
   .projectTitle {
     font-size: 1.6rem;
     font-weight: 600;
-    color: c.$peach;
+    color: c.$dark-green;
   }
 
-  .projectInfo {
-    display: grid;
-    grid-template-columns: 3fr 4fr;
-    align-items: center;
-    gap: 1rem;
+  .projectDescription {
+    font-size: 1rem;
+  }
 
-    .projectDescription {
-      font-size: 0.9rem;
-    }
-    .projectImage {
-      width: 100%;
-      margin-bottom: 1.3rem;
-    }
+  .projectImage {
+    width: 100%;
+    margin-bottom: 1.3rem;
   }
 }

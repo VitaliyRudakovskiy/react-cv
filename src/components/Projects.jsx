@@ -9,7 +9,7 @@ import shelter from "../images/Shelter_demo.png";
 
 function Projects() {
   return (
-    <section id='projects' style={{ marginBottom: "2rem" }}>
+    <section id='projects' style={{ marginBottom: "1rem" }}>
       <TitleWrapper title='Projects' />
       <Project name='My Todo List' description='todoList' imgLink={todolist} />
       <Project name='Tenzies' description='tenzies' imgLink={tenzies} />

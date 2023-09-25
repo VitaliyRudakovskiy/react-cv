@@ -12,15 +12,23 @@
   font-size: 16px;
   line-height: 1.6;
   background-color: c.$peach;
+  overflow-y: hidden;
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.main-container {
-  display: flex;
-  gap: 3rem;
+.footer-container {
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(292px, 1fr));
+}
+
+@media screen and (max-width: 780px) {
+  .main-container {
+    flex-direction: column;
+  }
 }

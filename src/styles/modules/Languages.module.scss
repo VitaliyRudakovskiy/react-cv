@@ -3,11 +3,7 @@
 .languagesSection {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-
-  .languagesTitle {
-    color: c.$dark-green;
-  }
+  align-items: flex-start;
 
   .languagesList {
     display: flex;
