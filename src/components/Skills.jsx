@@ -11,7 +11,7 @@ function Skills() {
         <SkillsItem skillName='React.js' />
         <SkillsItem skillName='Redux' />
         <SkillsItem skillName='HTML' />
-        <SkillsItem skillName='CSS' />
+        <SkillsItem skillName='CSS, SCSS, Tailwindcss ' />
         <SkillsItem skillName='JavaScript, Node.js' />
         <SkillsItem skillName='Git, GitHub' />
         <SkillsItem skillName='C#, C++ (OOP, WinForms)' />
