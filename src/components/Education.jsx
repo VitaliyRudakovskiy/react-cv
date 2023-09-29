@@ -11,6 +11,9 @@ function Education() {
           <h3 className={styles.title}>University</h3>
           <p>Belarusian State University of Informatics and Radioelectronics</p>
           <p>Faculty of Computer-Aided Design</p>
+          <p>
+            Engineering and psychological support of information technologies
+          </p>
         </div>
         <div className={styles.coursesContainer}>
           <h3 className={styles.title}>Courses</h3>
